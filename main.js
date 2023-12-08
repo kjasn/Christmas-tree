@@ -1,3 +1,5 @@
+
+//  ------------------ 判断显示内容 & 倒计时 -------------
 // start time
 const TARGET_HOUR = 19;
 const TARGET_MIN = 0;
@@ -64,7 +66,7 @@ function updateRemainingTime() {
     }
 }
 
-
+// 圣诞树
 var greeting = [
     'printf("{0}");',
     'cout << "{0}" << endl;',
@@ -81,9 +83,6 @@ var greeting = [
     // 'System.Console.WriteLine("{0}");',
     'console.log("{0}");',
     'document.write("{0}")',
-    // '圣诞快乐!',
-    // 'Merry Christmas!',
-    // 'Fröhliche Weihnachten !',
 ];
 
 var year = new Date().getFullYear()+1;
@@ -164,4 +163,3 @@ for ( i = 0; i<300; i++) {
     transform(div, 'translate3d('+x+'px, '+y+'px, 0px) rotateX('+rx+'deg) rotateY('+ry+'deg) rotateZ('+rz+'deg)');
     tree.appendChild( div ); 
 }
-
