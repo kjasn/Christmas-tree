@@ -2,7 +2,7 @@
 
 > This is a demo forked from https://github.com/haoel/christmas
 
-Celebrating Christmas Day and joy someone.
+Celebrating Christmas Day and joying someone.
 
 说明：
 
